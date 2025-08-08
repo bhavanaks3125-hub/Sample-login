@@ -18,7 +18,7 @@ export default function StatsCard({ title, value, icon, color, change }: StatsCa
   return (
     <View style={styles.container}>
       <LinearGradient
-        colors={[color + '15', color + '05']}
+        colors={[color + '05', color + '05']}
         style={styles.gradient}
       >
         <View style={styles.header}>
@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#E5E7EB',
     backgroundColor: '#FFFFFF',
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
+    // shadowColor: '#000',
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 2,
+    // },
     shadowOpacity: 0.1,
     shadowRadius: 8,
     elevation: 3,
